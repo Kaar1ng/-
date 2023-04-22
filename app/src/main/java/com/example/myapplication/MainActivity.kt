@@ -15,9 +15,7 @@ class MainActivity : AppCompatActivity() {
         val edit = findViewById<EditText>(R.id.edit)
         val txt = findViewById<TextView>(R.id.txt)
 
-        but.setOnClickListener {
-            txt.text = edit.text
-        }
+        but.setOnClickListener { txt.text = edit.text }
 
     }
 }
